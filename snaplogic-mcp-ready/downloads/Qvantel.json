@@ -1,0 +1,2655 @@
+{
+  "class_fqid": "com-snaplogic-pipeline_9",
+  "instance_version": 28,
+  "link_serial": 124,
+  "path_id": "/Elkjop-Test/ITDSInt/Qvantel",
+  "property_map": {
+    "info": {
+      "label": {
+        "value": "Qvantel_SND_SAPERP_Invoicing01"
+      },
+      "author": {
+        "value": "saicharan@elkjop.no"
+      },
+      "pipeline_doc_uri": {
+        "value": null
+      },
+      "notes": {
+        "value": null
+      },
+      "purpose": {
+        "value": null
+      }
+    },
+    "error": {
+      "error_behavior": {
+        "value": "none"
+      }
+    },
+    "settings": {
+      "error_pipeline": {
+        "value": null,
+        "expression": false
+      },
+      "error_param_table": {
+        "value": []
+      },
+      "param_table": {
+        "value": [
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "Direction"
+            },
+            "value": {
+              "value": "2"
+            },
+            "required": {
+              "value": false
+            },
+            "data_type": {
+              "value": "string"
+            },
+            "description": {
+              "value": null
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "MessageType"
+            },
+            "value": {
+              "value": "ACC_DOCUMENT"
+            },
+            "required": {
+              "value": false
+            },
+            "data_type": {
+              "value": "string"
+            },
+            "description": {
+              "value": null
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "SenderPartnerType"
+            },
+            "value": {
+              "value": "LS"
+            },
+            "required": {
+              "value": false
+            },
+            "data_type": {
+              "value": "string"
+            },
+            "description": {
+              "value": null
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "SenderPort"
+            },
+            "value": {
+              "value": "TRFC"
+            },
+            "required": {
+              "value": false
+            },
+            "data_type": {
+              "value": "string"
+            },
+            "description": {
+              "value": null
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "SenderPartnerNumber"
+            },
+            "value": {
+              "value": "QVANTEL"
+            },
+            "required": {
+              "value": false
+            },
+            "data_type": {
+              "value": "string"
+            },
+            "description": {
+              "value": null
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "RecipientPartnerType"
+            },
+            "value": {
+              "value": "LS"
+            },
+            "required": {
+              "value": false
+            },
+            "data_type": {
+              "value": "string"
+            },
+            "description": {
+              "value": null
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "RecipientPort"
+            },
+            "value": {
+              "value": "SAPCET"
+            },
+            "required": {
+              "value": false
+            },
+            "data_type": {
+              "value": "string"
+            },
+            "description": {
+              "value": null
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "RecipientPartnerNumber"
+            },
+            "value": {
+              "value": "CETCLNT100"
+            },
+            "required": {
+              "value": false
+            },
+            "data_type": {
+              "value": "string"
+            },
+            "description": {
+              "value": null
+            }
+          }
+        ]
+      },
+      "imports": {
+        "value": []
+      }
+    },
+    "instance_version": 27,
+    "input": {},
+    "output": {
+      "a62aae94-a0fa-4a45-a330-1a04dde3b778_output0": {
+        "label": {
+          "value": "SAP IDoc Write - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      },
+      "7a63a20b-240d-4355-b223-13de0fc38831_output0": {
+        "label": {
+          "value": "SAP IDoc Write - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      },
+      "fddbea97-3839-4cc1-aaf2-cd271273ade2_output0": {
+        "label": {
+          "value": "SAP IDoc Write - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      },
+      "786b2bc8-f17c-4718-9c7e-bcc970e400d7_output0": {
+        "label": {
+          "value": "SAP IDoc Write - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      },
+      "53b13dc1-c931-417b-b431-35b407a1c475_output0": {
+        "label": {
+          "value": "SAP IDoc Write - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      },
+      "5634c737-1943-4da4-b26b-d0bdd37d8286_output0": {
+        "label": {
+          "value": "SAP IDoc Write - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      },
+      "24055129-d788-4a44-9e02-3e4da26e677f_output0": {
+        "label": {
+          "value": "SAP IDoc Write - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      },
+      "599035f7-9a89-4671-8b86-8fe02eb1ef4a_output0": {
+        "label": {
+          "value": "SAP IDoc Write - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      },
+      "4a0d3cb9-daaf-4714-8813-89cb767aa8f6_output0": {
+        "label": {
+          "value": "SAP IDoc Write - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      },
+      "857d9fbd-d700-449d-99fb-89afe2d5f7c9_output0": {
+        "label": {
+          "value": "SAP IDoc Write - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      }
+    }
+  },
+  "render_map": {
+    "scale_ratio": 1,
+    "pan_x_num": 0,
+    "pan_y_num": 0,
+    "default_snaplex": "5fb23aec02d86889102a0ff7",
+    "detail_map": {
+      "c57aea82-f6ce-46db-863e-d245e80d21b1": {
+        "grid_x_int": 1,
+        "grid_y_int": 3,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "snap catagory",
+        "index": null,
+        "rot_tail_int": 0,
+        "input": {}
+      },
+      "90c082d0-b999-4952-af18-08b7dc4b017c": {
+        "grid_x_int": 4,
+        "grid_y_int": 3,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "snap catagory",
+        "index": null,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "error": {}
+      },
+      "522bae69-7238-4ac9-8028-16cc2d6bb7a4": {
+        "grid_x_int": 3,
+        "grid_y_int": 3,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "snap catagory",
+        "index": null,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "error": {}
+      },
+      "e022af3a-7728-4f5e-b9c3-361385706533": {
+        "grid_x_int": 2,
+        "grid_y_int": 3,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "snap catagory",
+        "index": null,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "error": {}
+      },
+      "1d8347a7-e3bf-478d-8287-bd6053cd5347": {
+        "grid_x_int": 5,
+        "grid_y_int": 3,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "snap catagory",
+        "index": null,
+        "rot_tail_int": 0
+      },
+      "9ed89e9c-83e0-4c87-8c58-e801e58ef2d5": {
+        "grid_x_int": 6,
+        "grid_y_int": 3,
+        "rot_int": 0,
+        "recommendation_id": "f53e4c92-9fec-3c6a-11f1-35b696252bbe_0",
+        "source": "iris placeholder",
+        "index": 0,
+        "rot_tail_int": 0
+      },
+      "a62aae94-a0fa-4a45-a330-1a04dde3b778": {
+        "grid_x_int": 8,
+        "grid_y_int": 3,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0
+      },
+      "2c23e2b8-11d7-4cc3-975a-4980d8946e91": {
+        "grid_x_int": 5,
+        "grid_y_int": 1,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {}
+      },
+      "daf89752-ac3e-4971-98d2-d88e579e3898": {
+        "grid_x_int": 7,
+        "grid_y_int": 3,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "snap catagory",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {
+          "output1": {
+            "rot_int": 0,
+            "dx_int": 0,
+            "dy_int": 1
+          },
+          "output101": {
+            "rot_int": 0,
+            "dx_int": 0,
+            "dy_int": 2
+          },
+          "output102": {
+            "rot_int": 0,
+            "dx_int": 0,
+            "dy_int": 3
+          },
+          "output103": {
+            "rot_int": 0,
+            "dx_int": 0,
+            "dy_int": 4
+          },
+          "output104": {
+            "rot_int": 0,
+            "dx_int": 0,
+            "dy_int": 5
+          },
+          "output105": {
+            "rot_int": 0,
+            "dx_int": 0,
+            "dy_int": 6
+          },
+          "output106": {
+            "rot_int": 0,
+            "dx_int": 0,
+            "dy_int": 7
+          },
+          "output107": {
+            "rot_int": 0,
+            "dx_int": 0,
+            "dy_int": 8
+          },
+          "output108": {
+            "rot_int": 0,
+            "dx_int": 0,
+            "dy_int": 9
+          }
+        }
+      },
+      "7a63a20b-240d-4355-b223-13de0fc38831": {
+        "grid_x_int": 8,
+        "grid_y_int": 4,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {}
+      },
+      "fddbea97-3839-4cc1-aaf2-cd271273ade2": {
+        "grid_x_int": 8,
+        "grid_y_int": 5,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {}
+      },
+      "786b2bc8-f17c-4718-9c7e-bcc970e400d7": {
+        "grid_x_int": 8,
+        "grid_y_int": 6,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {}
+      },
+      "53b13dc1-c931-417b-b431-35b407a1c475": {
+        "grid_x_int": 8,
+        "grid_y_int": 7,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {}
+      },
+      "5634c737-1943-4da4-b26b-d0bdd37d8286": {
+        "grid_x_int": 8,
+        "grid_y_int": 8,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {}
+      },
+      "24055129-d788-4a44-9e02-3e4da26e677f": {
+        "grid_x_int": 8,
+        "grid_y_int": 9,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {}
+      },
+      "599035f7-9a89-4671-8b86-8fe02eb1ef4a": {
+        "grid_x_int": 8,
+        "grid_y_int": 10,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {}
+      },
+      "4a0d3cb9-daaf-4714-8813-89cb767aa8f6": {
+        "grid_x_int": 8,
+        "grid_y_int": 11,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {}
+      },
+      "857d9fbd-d700-449d-99fb-89afe2d5f7c9": {
+        "grid_x_int": 8,
+        "grid_y_int": 12,
+        "rot_int": 0,
+        "recommendation_id": null,
+        "source": "",
+        "index": null,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {}
+      }
+    }
+  },
+  "snap_map": {
+    "c57aea82-f6ce-46db-863e-d245e80d21b1": {
+      "class_fqid": "com-snaplogic-snaps-binary-simpleread_1-main32088",
+      "class_id": "com-snaplogic-snaps-binary-simpleread",
+      "class_version": 1,
+      "instance_fqid": "c57aea82-f6ce-46db-863e-d245e80d21b1_12",
+      "instance_id": "c57aea82-f6ce-46db-863e-d245e80d21b1",
+      "instance_version": 12,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "File Reader"
+          },
+          "notes": {}
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "settings": {
+          "filePath": {
+            "value": "revenue_journal_invoice_B2C1_260430.csv",
+            "expression": false
+          },
+          "outputHeaders": {
+            "value": []
+          },
+          "retries": {
+            "value": 0,
+            "expression": false
+          },
+          "execution_mode": {
+            "value": "Execute only"
+          },
+          "preventURLEncoding": {
+            "value": false
+          },
+          "retryInterval": {
+            "value": 1,
+            "expression": false
+          },
+          "executeDuringPreview": {
+            "value": true
+          },
+          "advancedProperties": {
+            "value": []
+          },
+          "enableStaging": {
+            "value": false
+          }
+        },
+        "account": {
+          "account_ref": {
+            "value": {}
+          }
+        },
+        "view_serial": 100,
+        "input": {}
+      },
+      "class_build_tag": "main32088"
+    },
+    "90c082d0-b999-4952-af18-08b7dc4b017c": {
+      "class_fqid": "com-snaplogic-snaps-transform-csvparser_3-main32088",
+      "class_id": "com-snaplogic-snaps-transform-csvparser",
+      "class_version": 3,
+      "instance_fqid": "90c082d0-b999-4952-af18-08b7dc4b017c_1",
+      "instance_id": "90c082d0-b999-4952-af18-08b7dc4b017c",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "CSV Parser"
+          },
+          "notes": {}
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "settings": {
+          "skipLines": {
+            "value": 4,
+            "expression": false
+          },
+          "ignoreEmptyData": {
+            "value": true
+          },
+          "preserveSurroundingSpaces": {
+            "value": false,
+            "expression": false
+          },
+          "delimiter": {
+            "value": ";",
+            "expression": false
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "charset": {
+            "value": "Auto BOM detect"
+          },
+          "containsHeader": {
+            "value": true
+          },
+          "quoteCharacter": {
+            "value": "\"",
+            "expression": false
+          },
+          "validateHeaders": {
+            "value": false
+          },
+          "columnList": {
+            "value": []
+          },
+          "escapeChar": {
+            "value": "\\",
+            "expression": false
+          },
+          "errorPolicy": {
+            "value": "Both"
+          }
+        },
+        "view_serial": 100
+      },
+      "class_build_tag": "main32088"
+    },
+    "522bae69-7238-4ac9-8028-16cc2d6bb7a4": {
+      "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-main32088",
+      "class_id": "com-snaplogic-snaps-transform-datatransform",
+      "class_version": 4,
+      "instance_fqid": "522bae69-7238-4ac9-8028-16cc2d6bb7a4_1",
+      "instance_id": "522bae69-7238-4ac9-8028-16cc2d6bb7a4",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "Mapper"
+          },
+          "notes": {}
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "settings": {
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "passThrough": {
+            "value": false
+          },
+          "transformations": {
+            "value": {
+              "mappingRoot": {
+                "value": "$"
+              },
+              "mappingTable": {
+                "value": [
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "$content.replaceAll('\"','').replaceAll(\" Total EUR\",\"\")"
+                    },
+                    "targetPath": {
+                      "value": "$content"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "nullSafeAccess": {
+            "value": true
+          }
+        },
+        "view_serial": 100
+      },
+      "class_build_tag": "main32088"
+    },
+    "e022af3a-7728-4f5e-b9c3-361385706533": {
+      "class_fqid": "com-snaplogic-snaps-transform-binarytodocument_1-main32088",
+      "class_id": "com-snaplogic-snaps-transform-binarytodocument",
+      "class_version": 1,
+      "instance_fqid": "e022af3a-7728-4f5e-b9c3-361385706533_1",
+      "instance_id": "e022af3a-7728-4f5e-b9c3-361385706533",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "Binary to Document"
+          },
+          "notes": {}
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "settings": {
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "codec": {
+            "value": "NONE"
+          },
+          "ignoreEmptyStream": {
+            "value": false
+          }
+        },
+        "view_serial": 100
+      },
+      "class_build_tag": "main32088"
+    },
+    "1d8347a7-e3bf-478d-8287-bd6053cd5347": {
+      "class_fqid": "com-snaplogic-snaps-script-script_2-main31019",
+      "class_id": "com-snaplogic-snaps-script-script",
+      "class_version": 2,
+      "instance_fqid": "1d8347a7-e3bf-478d-8287-bd6053cd5347_11",
+      "instance_id": "1d8347a7-e3bf-478d-8287-bd6053cd5347",
+      "instance_version": 11,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "Script"
+          },
+          "notes": {}
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "settings": {
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "language": {
+            "value": "Javascript"
+          },
+          "script": {
+            "value": null,
+            "expression": false
+          },
+          "editable_content": {
+            "value": "// Ensure compatibility with both JDK 7 and 8 JSR-223 Script Engines\ntry {\n    load(\"nashorn:mozilla_compat.js\");\n} catch (e) { }\n\n// Import the interface required by the Script snap.\nimportPackage(com.snaplogic.scripting.language);\n\n// Import the serializable Java types we'll use for the output data.\nimportClass(java.util.LinkedHashMap);\nimportClass(java.util.ArrayList);\nimportClass(java.util.HashMap);\n\nfunction getReportingPeriod(date) {\n    var startOfMonth = new Date(date.getFullYear(), date.getMonth(), 1);\n    var endOfMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0);\n\n    function formatDate(d) {\n        var day = (\"0\" + d.getDate()).slice(-2);\n        var month = (\"0\" + (d.getMonth() + 1)).slice(-2);\n        var year = d.getFullYear();\n        return day + \"-\" + month + \"-\" + year;\n    }\n\n    return formatDate(startOfMonth) + \" - \" + formatDate(endOfMonth);\n}\n\nfunction formatSAPDate(d) {\n    var day = (\"0\" + d.getDate()).slice(-2);\n    var month = (\"0\" + (d.getMonth() + 1)).slice(-2);\n    var year = d.getFullYear();\n    return year + month + day; // YYYYMMDD\n}\n\nfunction isInvalidLine(doc) {\n    if (doc[\"Invoice\"] === \"TOTAL EUR\") {\n        return true;\n    }\n\n    var requiredFields = [\n        \"Int.Customer Nbr\",\n        \"Customer ID\",\n        \"Invoice Date\",\n        \"Due Date\",\n        \"Currency\",\n        \"Account\",\n        \"Tax%\",\n        \"Amount Excl.Tax\",\n        \"Tax Amount\",\n        \"Amount Incl.Tax\"\n    ];\n\n    for (var i = 0; i < requiredFields.length; i++) {\n        if (doc.get(requiredFields[i]) == null) {\n            return true;\n        }\n    }\n\n    return false;\n}\n\nvar impl = {\n    input: input,\n    output: output,\n    error: error,\n    log: log,\n\n    execute: function () {\n        this.log.info(\"Executing Invoice Grouping Script - Version 1.3\");\n\n        var grouped = new HashMap();\n        var today = new Date();\n        var reportingPeriod = getReportingPeriod(today);\n        var sapDate = formatSAPDate(today);\n\n        // --- Group by Invoice Number ---\n        while (this.input.hasNext()) {\n            try {\n                var inDoc = this.input.next();\n\n                if (isInvalidLine(inDoc)) {\n                    continue; // skip invalid rows\n                }\n\n                var rawInvoice = inDoc.get(\"Invoice\");\n                var invoiceNbr = rawInvoice.replace(\" Total EUR\", \"\");\n\n                if (!grouped.containsKey(invoiceNbr)) {\n                    grouped.put(invoiceNbr, new ArrayList());\n                }\n\n                inDoc.put(\"ReportingPeriod\", reportingPeriod);\n                grouped.get(invoiceNbr).add(inDoc);\n\n            } catch (err) {\n                var errDoc = new LinkedHashMap();\n                errDoc.put(\"error\", err.toString());\n                this.log.error(err);\n                this.error.write(errDoc);\n            }\n        }\n\n        // --- Build IDoc structure per invoice ---\n        var keys = grouped.keySet().toArray();\n        for (var i = 0; i < keys.length; i++) {\n            var invoiceNbr = keys[i];\n            var details = grouped.get(invoiceNbr);\n\n            var outDoc = new LinkedHashMap();\n\n            // --- Header (E1BPACHE09) ---\n            var header = new LinkedHashMap();\n            header.put(\"BUS_ACT\", \"RFBU\");\n            header.put(\"USERNAME\", \"QVANTEL\");\n            header.put(\"COMP_CODE\", \"TFA\");\n            header.put(\"DOC_DATE\", sapDate);\n            header.put(\"PSTNG_DATE\", sapDate);\n            header.put(\"DOC_TYPE\", \"SA\");\n            header.put(\"REF_DOC_NO\", invoiceNbr);\n            header.put(\"REPORTING_PERIOD\", reportingPeriod);\n\n            // --- GL + Amount segments ---\n            var glSegments = new ArrayList();\n            var amtSegments = new ArrayList();\n            var itemCounter = 1;\n            var totalAmount = 0;\n\n            for (var j = 0; j < details.size(); j++) {\n                var line = details.get(j);\n\n                // Skip lines where all amounts are zero\n                if (\n                    (!line[\"Amount Excl.Tax\"] || line[\"Amount Excl.Tax\"] == 0) &&\n                    (!line[\"Tax Amount\"] || line[\"Tax Amount\"] == 0) &&\n                    (!line[\"Amount Incl.Tax\"] || line[\"Amount Incl.Tax\"] == 0)\n                ) {\n                    continue;\n                }\n\n                // Force numeric conversion\n                var amtValue = parseFloat(line[\"Amount Incl.Tax\"] || line[\"Total Incl.Tax\"] || 0);\n                if (isNaN(amtValue)) amtValue = 0;\n                totalAmount += amtValue;\n\n                var taxPercent = parseFloat(line[\"Tax%\"]);\n                var taxCodeMap = { 14: \"11\", 25.5: \"18\" , 13.5 : \"21\"};\n                var taxCode = taxCodeMap[taxPercent] || \"\";\n\n                // --- Debit Line (300100) ---\n                var itemNbrDebit = (\"000000000\" + itemCounter++).slice(-10);\n                var glDebit = new LinkedHashMap();\n                glDebit.put(\"ITEMNO_ACC\", itemNbrDebit);\n                glDebit.put(\"GL_ACCOUNT\", \"0000300100\");\n                glDebit.put(\"ITEM_TEXT\", \"Invoice journal \" + line[\"ReportingPeriod\"]);\n                glDebit.put(\"COMP_CODE\", \"TFA\");\n                glDebit.put(\"PROFIT_CTR\", \"0000004640\");\n                // Swapped REF_KEY_1 and REF_KEY_2\n                glDebit.put(\"REF_KEY_1\", line[\"Customer ID\"] || \"\");\n                glDebit.put(\"REF_KEY_2\", line[\"Int.Customer Nbr\"] || \"\");\n                if (taxCode !== \"\") glDebit.put(\"TAX_CODE\", taxCode);\n                glSegments.add(glDebit);\n\n                var amtDebit = new LinkedHashMap();\n                amtDebit.put(\"ITEMNO_ACC\", itemNbrDebit);\n                amtDebit.put(\"CURRENCY\", (line[\"Currency\"] || \"EUR\"));\n                amtDebit.put(\"AMT_DOCCUR\", amtValue * -1);\n                amtSegments.add(amtDebit);\n            }\n\n            // --- Single Credit Line (155150) for Total ---\n            if (totalAmount !== 0) {\n                var itemNbrCredit = (\"000000000\" + itemCounter++).slice(-10);\n                var glCredit = new LinkedHashMap();\n                glCredit.put(\"ITEMNO_ACC\", itemNbrCredit);\n                glCredit.put(\"GL_ACCOUNT\", \"0000155150\");\n                glCredit.put(\"ITEM_TEXT\", \"Invoice total \" + reportingPeriod);\n                glCredit.put(\"COMP_CODE\", \"TFA\");\n                glCredit.put(\"PROFIT_CTR\", \"0000004640\");\n                // Swapped REF_KEY_1 and REF_KEY_2\n                glCredit.put(\"REF_KEY_1\", details.get(0)[\"Customer ID\"] || \"\");\n                glCredit.put(\"REF_KEY_2\", details.get(0)[\"Int.Customer Nbr\"] || \"\");\n                // Do not add TAX_CODE for credit line\n                glSegments.add(glCredit);\n\n                var amtCredit = new LinkedHashMap();\n                amtCredit.put(\"ITEMNO_ACC\", itemNbrCredit);\n                amtCredit.put(\"CURRENCY\", \"EUR\");\n                amtCredit.put(\"AMT_DOCCUR\", parseFloat(totalAmount.toFixed(3))); // ensure numeric + rounded\n                amtSegments.add(amtCredit);\n            }\n\n            // --- Extensions ---\n            var extc = new LinkedHashMap();\n            extc.put(\"Field1\", \"Revenue\");\n\n            var parex = new LinkedHashMap();\n            parex.put(\"STRUCTURE\", \"CI_COBL\");\n            parex.put(\"VALUEPART1\", \"000000000140000\");\n\n            // --- Final assembly ---\n            outDoc.put(\"E1BPACHE09\", header);\n            outDoc.put(\"E1BPACGL09\", glSegments);\n            outDoc.put(\"E1BPACCR09\", amtSegments);\n            outDoc.put(\"E1BPACEXTC\", extc);\n            outDoc.put(\"E1BPPAREX\", parex);\n\n            this.output.write(outDoc, outDoc);\n        }\n\n        this.log.info(\"Invoice grouping + IDoc generation completed (v1.3)\");\n    },\n\n    cleanup: function () {\n        this.log.info(\"Cleaning up\");\n    }\n};\n\nvar hook = new com.snaplogic.scripting.language.ScriptHook(impl);\n"
+          }
+        },
+        "view_serial": 100
+      },
+      "class_build_tag": "main31019"
+    },
+    "9ed89e9c-83e0-4c87-8c58-e801e58ef2d5": {
+      "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-main32088",
+      "class_id": "com-snaplogic-snaps-transform-datatransform",
+      "class_version": 4,
+      "instance_fqid": "9ed89e9c-83e0-4c87-8c58-e801e58ef2d5_2",
+      "instance_id": "9ed89e9c-83e0-4c87-8c58-e801e58ef2d5",
+      "instance_version": 2,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "Mapper1"
+          },
+          "notes": {}
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "settings": {
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "passThrough": {
+            "value": false
+          },
+          "transformations": {
+            "value": {
+              "mappingRoot": {
+                "value": "$"
+              },
+              "mappingTable": {
+                "value": [
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "$E1BPACCR09"
+                    },
+                    "targetPath": {
+                      "value": "$ROOT.E1BPACCR09",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "expression": {
+                      "value": "$E1BPACEXTC",
+                      "expression": true
+                    },
+                    "targetPath": {
+                      "value": "$ROOT.E1BPACEXTC",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "expression": {
+                      "value": "$E1BPACGL09",
+                      "expression": true
+                    },
+                    "targetPath": {
+                      "value": "$ROOT.E1BPACGL09",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "expression": {
+                      "value": "$E1BPACHE09",
+                      "expression": true
+                    },
+                    "targetPath": {
+                      "value": "$ROOT.E1BPACHE09",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "expression": {
+                      "value": "$E1BPPAREX",
+                      "expression": true
+                    },
+                    "targetPath": {
+                      "value": "$ROOT.E1BPPAREX",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "expression": {
+                      "value": "_RecipientPort",
+                      "expression": true
+                    },
+                    "targetPath": {
+                      "value": "$['Control-Record'].RecipientPort"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$['Control-Record'].RecipientPartnerType"
+                    },
+                    "expression": {
+                      "value": "_RecipientPartnerType",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$['Control-Record'].RecipientPartnerNumber"
+                    },
+                    "expression": {
+                      "value": "_RecipientPartnerNumber",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$['Control-Record'].SenderPartnerNumber"
+                    },
+                    "expression": {
+                      "value": "_SenderPartnerNumber",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$['Control-Record'].SenderPartnerType"
+                    },
+                    "expression": {
+                      "value": "_SenderPartnerType",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$['Control-Record'].SenderPort"
+                    },
+                    "expression": {
+                      "value": "_SenderPort",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$['Control-Record'].MessageType"
+                    },
+                    "expression": {
+                      "value": "_MessageType",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$['Control-Record'].Direction"
+                    },
+                    "expression": {
+                      "value": "_Direction",
+                      "expression": true
+                    }
+                  },
+                  {
+                    "expression": {
+                      "value": "\"ACC\"",
+                      "expression": true
+                    },
+                    "targetPath": {
+                      "value": "$['Control-Record'].MessageCode"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "nullSafeAccess": {
+            "value": true
+          }
+        },
+        "view_serial": 100
+      },
+      "class_build_tag": "main32088"
+    },
+    "a62aae94-a0fa-4a45-a330-1a04dde3b778": {
+      "class_fqid": "com-snaplogic-snaps-sap-idocwrite_1-swat3070preview1",
+      "class_id": "com-snaplogic-snaps-sap-idocwrite",
+      "class_version": 1,
+      "instance_fqid": "a62aae94-a0fa-4a45-a330-1a04dde3b778_3",
+      "instance_id": "a62aae94-a0fa-4a45-a330-1a04dde3b778",
+      "instance_version": 3,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "SAP IDoc Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {
+              "label": {
+                "value": "_SAP_ERP_W",
+                "label": "../shared/_SAP_ERP_W",
+                "expression": false
+              },
+              "ref_class_id": {
+                "value": "com-snaplogic-snaps-sap-loadbalancedjcoaccount"
+              },
+              "ref_id": {
+                "value": "ae80dcf6-dc85-4d42-a50f-abe5b89ca47a",
+                "expression": false
+              }
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "successCodes": {
+            "expression": false,
+            "value": "53"
+          },
+          "pollingInterval": {
+            "expression": false,
+            "value": 5
+          },
+          "idocExtensionType": {
+            "expression": false,
+            "value": null
+          },
+          "maxAttempts": {
+            "value": 3
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "idoc": {
+            "expression": false,
+            "value": "ACC_DOCUMENT04"
+          },
+          "routeErrors": {
+            "value": false
+          },
+          "reloadIDocMetadata": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "iDocReadBapi": {
+            "expression": false,
+            "value": "Z_SNAP_IDOC_CHECK_STORED"
+          },
+          "batchMode": {
+            "value": false
+          },
+          "pollingTimeout": {
+            "expression": false,
+            "value": 300
+          },
+          "requestRetryInterval": {
+            "value": 5
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "swat3070preview1"
+    },
+    "2c23e2b8-11d7-4cc3-975a-4980d8946e91": {
+      "class_fqid": "com-snaplogic-snaps-script-script_2-main31019",
+      "class_id": "com-snaplogic-snaps-script-script",
+      "class_version": 2,
+      "instance_fqid": "2c23e2b8-11d7-4cc3-975a-4980d8946e91_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "Script"
+          },
+          "notes": {}
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "settings": {
+          "execution_mode": {
+            "value": "Disabled"
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "language": {
+            "value": "Javascript"
+          },
+          "script": {
+            "value": null,
+            "expression": false
+          },
+          "editable_content": {
+            "value": "// Ensure compatibility with both JDK 7 and 8 JSR-223 Script Engines\ntry {\n    load(\"nashorn:mozilla_compat.js\");\n} catch (e) { }\n\n// Import the interface required by the Script snap.\nimportPackage(com.snaplogic.scripting.language);\n\n// Import the serializable Java type we'll use for the output data.\nimportClass(java.util.LinkedHashMap);\nimportClass(java.util.ArrayList);\nimportClass(java.util.HashMap);\n\nfunction getReportingPeriod(date) {\n    var startOfMonth = new Date(date.getFullYear(), date.getMonth(), 1);\n    var endOfMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0);\n\n    function formatDate(d) {\n        var day = (\"0\" + d.getDate()).slice(-2);\n        var month = (\"0\" + (d.getMonth() + 1)).slice(-2);\n        var year = d.getFullYear();\n        return day + \"-\" + month + \"-\" + year;\n    }\n\n    return formatDate(startOfMonth) + \" - \" + formatDate(endOfMonth);\n}\n\nfunction formatSAPDate(d) {\n    var day = (\"0\" + d.getDate()).slice(-2);\n    var month = (\"0\" + (d.getMonth() + 1)).slice(-2);\n    var year = d.getFullYear();\n    return year + month + day; // YYYYMMDD\n}\n\nfunction isInvalidLine(doc) {\n    if (doc[\"Invoice\"] === \"TOTAL EUR\") {\n        return true;\n    }\n\n    var requiredFields = [\n        \"Int.Customer Nbr\",\n        \"Customer ID\",\n        \"Invoice Date\",\n        \"Due Date\",\n        \"Currency\",\n        \"Account\",\n        \"Tax%\",\n        \"Amount Excl.Tax\",\n        \"Tax Amount\",\n        \"Amount Incl.Tax\"\n    ];\n\n    for (var i = 0; i < requiredFields.length; i++) {\n        if (doc.get(requiredFields[i]) == null) {\n            return true;\n        }\n    }\n\n    return false;\n}\n\nvar impl = {\n    input: input,\n    output: output,\n    error: error,\n    log: log,\n\n    execute: function () {\n        this.log.info(\"Executing Invoice Grouping Script\");\n\n        var grouped = new HashMap();\n        var today = new Date();\n        var reportingPeriod = getReportingPeriod(today);\n        var sapDate = formatSAPDate(today);\n\n        while (this.input.hasNext()) {\n            try {\n                var inDoc = this.input.next();\n\n                if (isInvalidLine(inDoc)) {\n                    continue; // skip invalid rows\n                }\n\n                var rawInvoice = inDoc.get(\"Invoice\");\n                var invoiceNbr = rawInvoice.replace(\" Total EUR\", \"\");\n\n                if (!grouped.containsKey(invoiceNbr)) {\n                    grouped.put(invoiceNbr, new ArrayList());\n                }\n\n                inDoc.put(\"ReportingPeriod\", reportingPeriod);\n                grouped.get(invoiceNbr).add(inDoc);\n\n            } catch (err) {\n                var errDoc = new LinkedHashMap();\n                errDoc.put(\"error\", err.toString());\n                this.log.error(err);\n                this.error.write(errDoc);\n            }\n        }\n\n        // Build IDoc structure per invoice\n        var keys = grouped.keySet().toArray();\n        for (var i = 0; i < keys.length; i++) {\n            var invoiceNbr = keys[i];\n            var details = grouped.get(invoiceNbr);\n\n            var outDoc = new LinkedHashMap();\n\n            // --- Header (E1BPACHE09) ---\n            var header = new LinkedHashMap();\n            header.put(\"BUS_ACT\", \"RFBU\");\n            header.put(\"USERNAME\", \"QVANTEL\");\n            header.put(\"COMP_CODE\", \"TFA\");\n            header.put(\"DOC_DATE\", sapDate);\n            header.put(\"PSTNG_DATE\", sapDate);\n            header.put(\"DOC_TYPE\", \"SA\");\n            header.put(\"REF_DOC_NO\", invoiceNbr);\n            header.put(\"REPORTING_PERIOD\", reportingPeriod);\n\n            // --- GL + Amount segments ---\n            var glSegments = new ArrayList();\n            var amtSegments = new ArrayList();\n\n            for (var j = 0; j < details.size(); j++) {\n                var line = details.get(j);\n                var itemNbr = (\"000000000\" + (j + 1)).slice(-10);\n\n                var amtValue = (line[\"Amount Incl.Tax\"] || line[\"Total Incl.Tax\"]);\n                var glAccount = line[\"GL_ACCOUNT\"];\n\n                var finalGL;\n                var finalAmt;\n\n                if (\n\n                    line[\"Int.Customer Nbr\"] == \"\" &&\n                    line[\"Customer ID\"] == \"\" &&\n                    line[\"Invoice Date\"] == \"\" &&\n                    line[\"Due Date\"] == \"\" &&\n                    line[\"Currency\"] == \"\" &&\n                    line[\"Account\"] == \"\" &&\n                    line[\"Tax%\"] == \"\" &&\n                    line[\"Amount Excl.Tax\"] == \"\" &&\n                    line[\"Tax Amount\"] == \"\" &&\n                    line[\"Amount Incl.Tax\"] == \"\"\n                ) {\n                    finalGL = \"0000155150\";\n                    finalAmt = amtValue;\n                } else {\n                    finalGL = \"0000300100\";\n                    finalAmt = amtValue * -1;\n                }\n\n                // GL line\n                var gl = new LinkedHashMap();\n                gl.put(\"ITEMNO_ACC\", itemNbr);\n                gl.put(\"GL_ACCOUNT\", finalGL);\n                gl.put(\"ITEM_TEXT\", \"Invoice journal \" + line[\"ReportingPeriod\"]);\n                gl.put(\"COMP_CODE\", \"TFA\");\n                if( finalGL == \"0000300100\")\n                gl.put(\"TAX_CODE\", \"18\"); // TODO: map from Tax%\n                gl.put(\"PROFIT_CTR\", \"0000004640\");\n                gl.put(\"REF_KEY_1\", \"0MFWCEBRG0\");\n                gl.put(\"REF_KEY_2\", \"0000001017\");\n                glSegments.add(gl);\n\n                // Amount line\n                var amt = new LinkedHashMap();\n                amt.put(\"ITEMNO_ACC\", itemNbr);\n                amt.put(\"CURRENCY\", (line[\"Currency\"] || \"EUR\"));\n                amt.put(\"AMT_DOCCUR\", finalAmt);\n                amtSegments.add(amt);\n            }\n\n            // --- Extensions ---\n            var extc = new LinkedHashMap();\n            extc.put(\"Field1\", \"Revenue\");\n\n            var parex = new LinkedHashMap();\n            parex.put(\"Structure\", \"CI_COBL\");\n            parex.put(\"VALUEPART1\", \"000000000140000\");\n\n            // --- Final assembly ---\n            outDoc.put(\"E1BPACHE09\", header);\n            outDoc.put(\"E1BPACGL09\", glSegments);\n            outDoc.put(\"E1BPACCR09\", amtSegments);\n            outDoc.put(\"E1BPACEXTC\", extc);\n            outDoc.put(\"E1BPPAREX\", parex);\n\n            this.output.write(outDoc, outDoc);\n        }\n\n        this.log.info(\"Invoice grouping + IDoc generation completed\");\n    },\n\n    cleanup: function () {\n        this.log.info(\"Cleaning up\");\n    }\n};\n\nvar hook = new com.snaplogic.scripting.language.ScriptHook(impl);\n"
+          }
+        },
+        "view_serial": 100
+      },
+      "class_build_tag": "main31019",
+      "instance_id": "2c23e2b8-11d7-4cc3-975a-4980d8946e91"
+    },
+    "daf89752-ac3e-4971-98d2-d88e579e3898": {
+      "class_fqid": "com-snaplogic-snaps-flow-router_2-main32088",
+      "class_id": "com-snaplogic-snaps-flow-router",
+      "class_version": 2,
+      "instance_fqid": "daf89752-ac3e-4971-98d2-d88e579e3898_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "Router"
+          },
+          "notes": {}
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          },
+          "output1": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output1"
+            }
+          },
+          "output101": {
+            "label": {
+              "value": "output2"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "output102": {
+            "label": {
+              "value": "output3"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "output103": {
+            "label": {
+              "value": "output4"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "output104": {
+            "label": {
+              "value": "output5"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "output105": {
+            "label": {
+              "value": "output6"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "output106": {
+            "label": {
+              "value": "output7"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "output107": {
+            "label": {
+              "value": "output8"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "output108": {
+            "label": {
+              "value": "output9"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "settings": {
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "routes": {
+            "value": [
+              {
+                "expression": {
+                  "expression": true,
+                  "value": null
+                },
+                "outputViewName": {
+                  "value": "output0"
+                }
+              },
+              {
+                "expression": {
+                  "expression": true,
+                  "value": null
+                },
+                "outputViewName": {
+                  "value": "output1"
+                }
+              }
+            ]
+          },
+          "firstMatch": {
+            "value": false
+          }
+        },
+        "view_serial": 108
+      },
+      "class_build_tag": "main32088",
+      "instance_id": "daf89752-ac3e-4971-98d2-d88e579e3898"
+    },
+    "7a63a20b-240d-4355-b223-13de0fc38831": {
+      "class_fqid": "com-snaplogic-snaps-sap-idocwrite_1-swat3070preview1",
+      "class_id": "com-snaplogic-snaps-sap-idocwrite",
+      "class_version": 1,
+      "instance_fqid": "7a63a20b-240d-4355-b223-13de0fc38831_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "SAP IDoc Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {
+              "label": {
+                "value": "_SAP_ERP_W",
+                "label": "../shared/_SAP_ERP_W",
+                "expression": false
+              },
+              "ref_class_id": {
+                "value": "com-snaplogic-snaps-sap-loadbalancedjcoaccount"
+              },
+              "ref_id": {
+                "value": "ae80dcf6-dc85-4d42-a50f-abe5b89ca47a",
+                "expression": false
+              }
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "successCodes": {
+            "expression": false,
+            "value": "53"
+          },
+          "pollingInterval": {
+            "expression": false,
+            "value": 5
+          },
+          "idocExtensionType": {
+            "expression": false,
+            "value": null
+          },
+          "maxAttempts": {
+            "value": 3
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "idoc": {
+            "expression": false,
+            "value": "ACC_DOCUMENT04"
+          },
+          "routeErrors": {
+            "value": false
+          },
+          "reloadIDocMetadata": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "iDocReadBapi": {
+            "expression": false,
+            "value": "Z_SNAP_IDOC_CHECK_STORED"
+          },
+          "batchMode": {
+            "value": false
+          },
+          "pollingTimeout": {
+            "expression": false,
+            "value": 300
+          },
+          "requestRetryInterval": {
+            "value": 5
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "swat3070preview1",
+      "instance_id": "7a63a20b-240d-4355-b223-13de0fc38831"
+    },
+    "fddbea97-3839-4cc1-aaf2-cd271273ade2": {
+      "class_fqid": "com-snaplogic-snaps-sap-idocwrite_1-swat3070preview1",
+      "class_id": "com-snaplogic-snaps-sap-idocwrite",
+      "class_version": 1,
+      "instance_fqid": "fddbea97-3839-4cc1-aaf2-cd271273ade2_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "SAP IDoc Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {
+              "label": {
+                "value": "_SAP_ERP_W",
+                "label": "../shared/_SAP_ERP_W",
+                "expression": false
+              },
+              "ref_class_id": {
+                "value": "com-snaplogic-snaps-sap-loadbalancedjcoaccount"
+              },
+              "ref_id": {
+                "value": "ae80dcf6-dc85-4d42-a50f-abe5b89ca47a",
+                "expression": false
+              }
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "successCodes": {
+            "expression": false,
+            "value": "53"
+          },
+          "pollingInterval": {
+            "expression": false,
+            "value": 5
+          },
+          "idocExtensionType": {
+            "expression": false,
+            "value": null
+          },
+          "maxAttempts": {
+            "value": 3
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "idoc": {
+            "expression": false,
+            "value": "ACC_DOCUMENT04"
+          },
+          "routeErrors": {
+            "value": false
+          },
+          "reloadIDocMetadata": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "iDocReadBapi": {
+            "expression": false,
+            "value": "Z_SNAP_IDOC_CHECK_STORED"
+          },
+          "batchMode": {
+            "value": false
+          },
+          "pollingTimeout": {
+            "expression": false,
+            "value": 300
+          },
+          "requestRetryInterval": {
+            "value": 5
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "swat3070preview1",
+      "instance_id": "fddbea97-3839-4cc1-aaf2-cd271273ade2"
+    },
+    "786b2bc8-f17c-4718-9c7e-bcc970e400d7": {
+      "class_fqid": "com-snaplogic-snaps-sap-idocwrite_1-swat3070preview1",
+      "class_id": "com-snaplogic-snaps-sap-idocwrite",
+      "class_version": 1,
+      "instance_fqid": "786b2bc8-f17c-4718-9c7e-bcc970e400d7_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "SAP IDoc Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {
+              "label": {
+                "value": "_SAP_ERP_W",
+                "label": "../shared/_SAP_ERP_W",
+                "expression": false
+              },
+              "ref_class_id": {
+                "value": "com-snaplogic-snaps-sap-loadbalancedjcoaccount"
+              },
+              "ref_id": {
+                "value": "ae80dcf6-dc85-4d42-a50f-abe5b89ca47a",
+                "expression": false
+              }
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "successCodes": {
+            "expression": false,
+            "value": "53"
+          },
+          "pollingInterval": {
+            "expression": false,
+            "value": 5
+          },
+          "idocExtensionType": {
+            "expression": false,
+            "value": null
+          },
+          "maxAttempts": {
+            "value": 3
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "idoc": {
+            "expression": false,
+            "value": "ACC_DOCUMENT04"
+          },
+          "routeErrors": {
+            "value": false
+          },
+          "reloadIDocMetadata": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "iDocReadBapi": {
+            "expression": false,
+            "value": "Z_SNAP_IDOC_CHECK_STORED"
+          },
+          "batchMode": {
+            "value": false
+          },
+          "pollingTimeout": {
+            "expression": false,
+            "value": 300
+          },
+          "requestRetryInterval": {
+            "value": 5
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "swat3070preview1",
+      "instance_id": "786b2bc8-f17c-4718-9c7e-bcc970e400d7"
+    },
+    "53b13dc1-c931-417b-b431-35b407a1c475": {
+      "class_fqid": "com-snaplogic-snaps-sap-idocwrite_1-swat3070preview1",
+      "class_id": "com-snaplogic-snaps-sap-idocwrite",
+      "class_version": 1,
+      "instance_fqid": "53b13dc1-c931-417b-b431-35b407a1c475_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "SAP IDoc Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {
+              "label": {
+                "value": "_SAP_ERP_W",
+                "label": "../shared/_SAP_ERP_W",
+                "expression": false
+              },
+              "ref_class_id": {
+                "value": "com-snaplogic-snaps-sap-loadbalancedjcoaccount"
+              },
+              "ref_id": {
+                "value": "ae80dcf6-dc85-4d42-a50f-abe5b89ca47a",
+                "expression": false
+              }
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "successCodes": {
+            "expression": false,
+            "value": "53"
+          },
+          "pollingInterval": {
+            "expression": false,
+            "value": 5
+          },
+          "idocExtensionType": {
+            "expression": false,
+            "value": null
+          },
+          "maxAttempts": {
+            "value": 3
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "idoc": {
+            "expression": false,
+            "value": "ACC_DOCUMENT04"
+          },
+          "routeErrors": {
+            "value": false
+          },
+          "reloadIDocMetadata": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "iDocReadBapi": {
+            "expression": false,
+            "value": "Z_SNAP_IDOC_CHECK_STORED"
+          },
+          "batchMode": {
+            "value": false
+          },
+          "pollingTimeout": {
+            "expression": false,
+            "value": 300
+          },
+          "requestRetryInterval": {
+            "value": 5
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "swat3070preview1",
+      "instance_id": "53b13dc1-c931-417b-b431-35b407a1c475"
+    },
+    "5634c737-1943-4da4-b26b-d0bdd37d8286": {
+      "class_fqid": "com-snaplogic-snaps-sap-idocwrite_1-swat3070preview1",
+      "class_id": "com-snaplogic-snaps-sap-idocwrite",
+      "class_version": 1,
+      "instance_fqid": "5634c737-1943-4da4-b26b-d0bdd37d8286_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "SAP IDoc Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {
+              "label": {
+                "value": "_SAP_ERP_W",
+                "label": "../shared/_SAP_ERP_W",
+                "expression": false
+              },
+              "ref_class_id": {
+                "value": "com-snaplogic-snaps-sap-loadbalancedjcoaccount"
+              },
+              "ref_id": {
+                "value": "ae80dcf6-dc85-4d42-a50f-abe5b89ca47a",
+                "expression": false
+              }
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "successCodes": {
+            "expression": false,
+            "value": "53"
+          },
+          "pollingInterval": {
+            "expression": false,
+            "value": 5
+          },
+          "idocExtensionType": {
+            "expression": false,
+            "value": null
+          },
+          "maxAttempts": {
+            "value": 3
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "idoc": {
+            "expression": false,
+            "value": "ACC_DOCUMENT04"
+          },
+          "routeErrors": {
+            "value": false
+          },
+          "reloadIDocMetadata": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "iDocReadBapi": {
+            "expression": false,
+            "value": "Z_SNAP_IDOC_CHECK_STORED"
+          },
+          "batchMode": {
+            "value": false
+          },
+          "pollingTimeout": {
+            "expression": false,
+            "value": 300
+          },
+          "requestRetryInterval": {
+            "value": 5
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "swat3070preview1",
+      "instance_id": "5634c737-1943-4da4-b26b-d0bdd37d8286"
+    },
+    "24055129-d788-4a44-9e02-3e4da26e677f": {
+      "class_fqid": "com-snaplogic-snaps-sap-idocwrite_1-swat3070preview1",
+      "class_id": "com-snaplogic-snaps-sap-idocwrite",
+      "class_version": 1,
+      "instance_fqid": "24055129-d788-4a44-9e02-3e4da26e677f_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "SAP IDoc Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {
+              "label": {
+                "value": "_SAP_ERP_W",
+                "label": "../shared/_SAP_ERP_W",
+                "expression": false
+              },
+              "ref_class_id": {
+                "value": "com-snaplogic-snaps-sap-loadbalancedjcoaccount"
+              },
+              "ref_id": {
+                "value": "ae80dcf6-dc85-4d42-a50f-abe5b89ca47a",
+                "expression": false
+              }
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "successCodes": {
+            "expression": false,
+            "value": "53"
+          },
+          "pollingInterval": {
+            "expression": false,
+            "value": 5
+          },
+          "idocExtensionType": {
+            "expression": false,
+            "value": null
+          },
+          "maxAttempts": {
+            "value": 3
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "idoc": {
+            "expression": false,
+            "value": "ACC_DOCUMENT04"
+          },
+          "routeErrors": {
+            "value": false
+          },
+          "reloadIDocMetadata": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "iDocReadBapi": {
+            "expression": false,
+            "value": "Z_SNAP_IDOC_CHECK_STORED"
+          },
+          "batchMode": {
+            "value": false
+          },
+          "pollingTimeout": {
+            "expression": false,
+            "value": 300
+          },
+          "requestRetryInterval": {
+            "value": 5
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "swat3070preview1",
+      "instance_id": "24055129-d788-4a44-9e02-3e4da26e677f"
+    },
+    "599035f7-9a89-4671-8b86-8fe02eb1ef4a": {
+      "class_fqid": "com-snaplogic-snaps-sap-idocwrite_1-swat3070preview1",
+      "class_id": "com-snaplogic-snaps-sap-idocwrite",
+      "class_version": 1,
+      "instance_fqid": "599035f7-9a89-4671-8b86-8fe02eb1ef4a_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "SAP IDoc Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {
+              "label": {
+                "value": "_SAP_ERP_W",
+                "label": "../shared/_SAP_ERP_W",
+                "expression": false
+              },
+              "ref_class_id": {
+                "value": "com-snaplogic-snaps-sap-loadbalancedjcoaccount"
+              },
+              "ref_id": {
+                "value": "ae80dcf6-dc85-4d42-a50f-abe5b89ca47a",
+                "expression": false
+              }
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "successCodes": {
+            "expression": false,
+            "value": "53"
+          },
+          "pollingInterval": {
+            "expression": false,
+            "value": 5
+          },
+          "idocExtensionType": {
+            "expression": false,
+            "value": null
+          },
+          "maxAttempts": {
+            "value": 3
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "idoc": {
+            "expression": false,
+            "value": "ACC_DOCUMENT04"
+          },
+          "routeErrors": {
+            "value": false
+          },
+          "reloadIDocMetadata": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "iDocReadBapi": {
+            "expression": false,
+            "value": "Z_SNAP_IDOC_CHECK_STORED"
+          },
+          "batchMode": {
+            "value": false
+          },
+          "pollingTimeout": {
+            "expression": false,
+            "value": 300
+          },
+          "requestRetryInterval": {
+            "value": 5
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "swat3070preview1",
+      "instance_id": "599035f7-9a89-4671-8b86-8fe02eb1ef4a"
+    },
+    "4a0d3cb9-daaf-4714-8813-89cb767aa8f6": {
+      "class_fqid": "com-snaplogic-snaps-sap-idocwrite_1-swat3070preview1",
+      "class_id": "com-snaplogic-snaps-sap-idocwrite",
+      "class_version": 1,
+      "instance_fqid": "4a0d3cb9-daaf-4714-8813-89cb767aa8f6_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "SAP IDoc Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {
+              "label": {
+                "value": "_SAP_ERP_W",
+                "label": "../shared/_SAP_ERP_W",
+                "expression": false
+              },
+              "ref_class_id": {
+                "value": "com-snaplogic-snaps-sap-loadbalancedjcoaccount"
+              },
+              "ref_id": {
+                "value": "ae80dcf6-dc85-4d42-a50f-abe5b89ca47a",
+                "expression": false
+              }
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "successCodes": {
+            "expression": false,
+            "value": "53"
+          },
+          "pollingInterval": {
+            "expression": false,
+            "value": 5
+          },
+          "idocExtensionType": {
+            "expression": false,
+            "value": null
+          },
+          "maxAttempts": {
+            "value": 3
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "idoc": {
+            "expression": false,
+            "value": "ACC_DOCUMENT04"
+          },
+          "routeErrors": {
+            "value": false
+          },
+          "reloadIDocMetadata": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "iDocReadBapi": {
+            "expression": false,
+            "value": "Z_SNAP_IDOC_CHECK_STORED"
+          },
+          "batchMode": {
+            "value": false
+          },
+          "pollingTimeout": {
+            "expression": false,
+            "value": 300
+          },
+          "requestRetryInterval": {
+            "value": 5
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "swat3070preview1",
+      "instance_id": "4a0d3cb9-daaf-4714-8813-89cb767aa8f6"
+    },
+    "857d9fbd-d700-449d-99fb-89afe2d5f7c9": {
+      "class_fqid": "com-snaplogic-snaps-sap-idocwrite_1-swat3070preview1",
+      "class_id": "com-snaplogic-snaps-sap-idocwrite",
+      "class_version": 1,
+      "instance_fqid": "857d9fbd-d700-449d-99fb-89afe2d5f7c9_1",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "SAP IDoc Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {
+              "label": {
+                "value": "_SAP_ERP_W",
+                "label": "../shared/_SAP_ERP_W",
+                "expression": false
+              },
+              "ref_class_id": {
+                "value": "com-snaplogic-snaps-sap-loadbalancedjcoaccount"
+              },
+              "ref_id": {
+                "value": "ae80dcf6-dc85-4d42-a50f-abe5b89ca47a",
+                "expression": false
+              }
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "successCodes": {
+            "expression": false,
+            "value": "53"
+          },
+          "pollingInterval": {
+            "expression": false,
+            "value": 5
+          },
+          "idocExtensionType": {
+            "expression": false,
+            "value": null
+          },
+          "maxAttempts": {
+            "value": 3
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "idoc": {
+            "expression": false,
+            "value": "ACC_DOCUMENT04"
+          },
+          "routeErrors": {
+            "value": false
+          },
+          "reloadIDocMetadata": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "iDocReadBapi": {
+            "expression": false,
+            "value": "Z_SNAP_IDOC_CHECK_STORED"
+          },
+          "batchMode": {
+            "value": false
+          },
+          "pollingTimeout": {
+            "expression": false,
+            "value": 300
+          },
+          "requestRetryInterval": {
+            "value": 5
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "swat3070preview1",
+      "instance_id": "857d9fbd-d700-449d-99fb-89afe2d5f7c9"
+    }
+  },
+  "link_map": {
+    "link105": {
+      "dst_id": "522bae69-7238-4ac9-8028-16cc2d6bb7a4",
+      "dst_view_id": "input0",
+      "src_id": "e022af3a-7728-4f5e-b9c3-361385706533",
+      "src_view_id": "output0"
+    },
+    "link107": {
+      "dst_id": "1d8347a7-e3bf-478d-8287-bd6053cd5347",
+      "dst_view_id": "input0",
+      "src_id": "90c082d0-b999-4952-af18-08b7dc4b017c",
+      "src_view_id": "output0"
+    },
+    "link109": {
+      "dst_id": "90c082d0-b999-4952-af18-08b7dc4b017c",
+      "dst_view_id": "input0",
+      "src_id": "522bae69-7238-4ac9-8028-16cc2d6bb7a4",
+      "src_view_id": "output0"
+    },
+    "link110": {
+      "dst_id": "e022af3a-7728-4f5e-b9c3-361385706533",
+      "dst_view_id": "input0",
+      "src_id": "c57aea82-f6ce-46db-863e-d245e80d21b1",
+      "src_view_id": "output0"
+    },
+    "link111": {
+      "dst_id": "9ed89e9c-83e0-4c87-8c58-e801e58ef2d5",
+      "dst_view_id": "input0",
+      "src_id": "1d8347a7-e3bf-478d-8287-bd6053cd5347",
+      "src_view_id": "output0"
+    },
+    "link113": {
+      "dst_id": "a62aae94-a0fa-4a45-a330-1a04dde3b778",
+      "dst_view_id": "input0",
+      "src_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "src_view_id": "output0"
+    },
+    "link114": {
+      "dst_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "dst_view_id": "input0",
+      "src_id": "9ed89e9c-83e0-4c87-8c58-e801e58ef2d5",
+      "src_view_id": "output0"
+    },
+    "link115": {
+      "dst_id": "7a63a20b-240d-4355-b223-13de0fc38831",
+      "dst_view_id": "input0",
+      "src_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "src_view_id": "output1"
+    },
+    "link116": {
+      "dst_id": "fddbea97-3839-4cc1-aaf2-cd271273ade2",
+      "dst_view_id": "input0",
+      "src_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "src_view_id": "output101"
+    },
+    "link117": {
+      "dst_id": "786b2bc8-f17c-4718-9c7e-bcc970e400d7",
+      "dst_view_id": "input0",
+      "src_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "src_view_id": "output102"
+    },
+    "link118": {
+      "dst_id": "53b13dc1-c931-417b-b431-35b407a1c475",
+      "dst_view_id": "input0",
+      "src_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "src_view_id": "output103"
+    },
+    "link119": {
+      "dst_id": "5634c737-1943-4da4-b26b-d0bdd37d8286",
+      "dst_view_id": "input0",
+      "src_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "src_view_id": "output104"
+    },
+    "link120": {
+      "dst_id": "24055129-d788-4a44-9e02-3e4da26e677f",
+      "dst_view_id": "input0",
+      "src_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "src_view_id": "output105"
+    },
+    "link121": {
+      "dst_id": "599035f7-9a89-4671-8b86-8fe02eb1ef4a",
+      "dst_view_id": "input0",
+      "src_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "src_view_id": "output106"
+    },
+    "link122": {
+      "dst_id": "4a0d3cb9-daaf-4714-8813-89cb767aa8f6",
+      "dst_view_id": "input0",
+      "src_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "src_view_id": "output107"
+    },
+    "link123": {
+      "dst_id": "857d9fbd-d700-449d-99fb-89afe2d5f7c9",
+      "dst_view_id": "input0",
+      "src_id": "daf89752-ac3e-4971-98d2-d88e579e3898",
+      "src_view_id": "output108"
+    }
+  },
+  "class_id": "com-snaplogic-pipeline",
+  "class_version": 9,
+  "instance_id": "8e3e32e0-4598-43f8-9b2e-96ee9693b845",
+  "instance_fqid": "8e3e32e0-4598-43f8-9b2e-96ee9693b845_28",
+  "create_time": "2025-09-29T12:24:54.453000+00:00",
+  "update_time": "2026-04-23T08:20:53.047000+00:00",
+  "update_user_id": "saicharan@elkjop.no",
+  "create_user_id": "saicharan@elkjop.no",
+  "migrate_version": "main-42425",
+  "scrub_backup": [],
+  "scrub_version": "bd5ad2571a0eafe60808d55c3e16c0f8e0ae08d67f5369bb3ad9c1921556eb14",
+  "_id": "8e3e32e0-4598-43f8-9b2e-96ee9693b845",
+  "path": "/Elkjop-Test/ITDSInt/Qvantel/Qvantel_SND_SAPERP_Invoicing01",
+  "snode_id": "68da7a96b81393afea6604f6",
+  "project_snode_id": "68da7a5b54020b4bbd397341",
+  "partition_snode_id": "60015c3054c8c9f2eca48c20",
+  "name": "Qvantel_SND_SAPERP_Invoicing01",
+  "target_runtime": "standard",
+  "org_id": "5dc009005e684b091dddbb51",
+  "org_snode_id": "5dc009005e684b091dddbb51",
+  "original": {
+    "name": "Qvantel_SND_SAPERP_Invoicing01",
+    "owner": "saicharan@elkjop.no",
+    "updated_by": "saicharan@elkjop.no",
+    "time_created": "2025-09-29T12:24:54.495000+00:00",
+    "time_updated": "2026-04-23T08:20:53.047000+00:00",
+    "time_leased": null,
+    "snode_id": "68da7a96b81393afea6604f6",
+    "acl": [],
+    "asset_id": "8e3e32e0-4598-43f8-9b2e-96ee9693b845",
+    "asset_type": "Pipeline",
+    "lease_info": {},
+    "perms": [
+      "W",
+      "R",
+      "X",
+      "A"
+    ],
+    "metadata": {},
+    "parent_snode_id": "68da7a5b54020b4bbd397341",
+    "partition_snode_id": "60015c3054c8c9f2eca48c20",
+    "path": "/Elkjop-Test/ITDSInt/Qvantel/Qvantel_SND_SAPERP_Invoicing01",
+    "original": {
+      "body": "/Elkjop-Test/ITDSInt/Qvantel"
+    }
+  }
+}

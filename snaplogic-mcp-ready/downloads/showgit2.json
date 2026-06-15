@@ -1,0 +1,224 @@
+{
+  "link_serial": 101,
+  "instance_version": 2,
+  "update_time": "2022-02-17T08:54:40.392000+00:00",
+  "create_user_id": "petrch@elkjop.no",
+  "scrub_backup": [],
+  "migrate_version": "main-42425",
+  "property_map": {
+    "info": {
+      "notes": {
+        "value": null
+      },
+      "label": {
+        "value": "first_pipe"
+      },
+      "purpose": {
+        "value": null
+      },
+      "pipeline_doc_uri": {
+        "value": null
+      },
+      "author": {
+        "value": "petrch@elkjop.no"
+      }
+    },
+    "input": {
+      "c88241f7-7e94-4733-97fa-3ddba4edbd7e_input0": {
+        "view_type": {
+          "value": "document"
+        },
+        "label": {
+          "value": "Mapper - input0"
+        }
+      }
+    },
+    "settings": {
+      "error_pipeline": {
+        "expression": false,
+        "value": null
+      },
+      "error_param_table": {
+        "value": []
+      },
+      "param_table": {
+        "value": []
+      },
+      "imports": {
+        "value": []
+      }
+    },
+    "output": {
+      "c88241f7-7e94-4733-97fa-3ddba4edbd7e_output0": {
+        "view_type": {
+          "value": "document"
+        },
+        "label": {
+          "value": "Mapper - output0"
+        }
+      }
+    },
+    "error": {
+      "error_behavior": {
+        "value": "none"
+      }
+    }
+  },
+  "render_map": {
+    "pan_x_num": 0,
+    "default_snaplex": null,
+    "pan_y_num": 0,
+    "detail_map": {
+      "c88241f7-7e94-4733-97fa-3ddba4edbd7e": {
+        "grid_x_int": 3,
+        "index": null,
+        "recommendation_id": null,
+        "error": {},
+        "source": "snap catagory",
+        "grid_y_int": 3,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      }
+    },
+    "scale_ratio": 1
+  },
+  "update_user_id": "petrch@elkjop.no",
+  "instance_id": "fe7c589d-8f71-4149-af1f-f126fa94bb14",
+  "class_fqid": "com-snaplogic-pipeline_9",
+  "path_id": "/Elkjop-Test/projects/showgit2",
+  "class_id": "com-snaplogic-pipeline",
+  "class_version": 9,
+  "create_time": "2022-02-17T08:54:39.934000+00:00",
+  "instance_fqid": "fe7c589d-8f71-4149-af1f-f126fa94bb14_2",
+  "snap_map": {
+    "c88241f7-7e94-4733-97fa-3ddba4edbd7e": {
+      "instance_id": "c88241f7-7e94-4733-97fa-3ddba4edbd7e",
+      "class_id": "com-snaplogic-snaps-transform-datatransform",
+      "class_build_tag": "UNKNOWN",
+      "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-UNKNOWN",
+      "class_version": 4,
+      "property_map": {
+        "info": {
+          "notes": {},
+          "label": {
+            "value": "Mapper"
+          }
+        },
+        "view_serial": 100,
+        "settings": {
+          "nullSafeAccess": {
+            "value": false
+          },
+          "passThrough": {
+            "value": false
+          },
+          "execution_mode": {
+            "value": "Validate & Execute"
+          },
+          "transformations": {
+            "value": {
+              "mappingTable": {
+                "value": [
+                  {
+                    "targetPath": {
+                      "value": "$test"
+                    },
+                    "expression": {
+                      "expression": false,
+                      "value": "test"
+                    }
+                  }
+                ]
+              },
+              "mappingRoot": {
+                "value": "$"
+              }
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        }
+      },
+      "instance_fqid": "c88241f7-7e94-4733-97fa-3ddba4edbd7e_1",
+      "instance_version": 1
+    }
+  },
+  "link_map": {},
+  "scrub_version": "bd5ad2571a0eafe60808d55c3e16c0f8e0ae08d67f5369bb3ad9c1921556eb14",
+  "_id": "fe7c589d-8f71-4149-af1f-f126fa94bb14",
+  "path": "/Elkjop-Test/projects/showgit2/first_pipe",
+  "snode_id": "620e0d5062ffa768e7e6c640",
+  "project_snode_id": "620e0c8a53dff97d3de25524",
+  "partition_snode_id": "5dc009005e684b091dddbb58",
+  "name": "first_pipe",
+  "target_runtime": "standard",
+  "org_id": "5dc009005e684b091dddbb51",
+  "org_snode_id": "5dc009005e684b091dddbb51",
+  "original": {
+    "name": "first_pipe",
+    "owner": "petrch@elkjop.no",
+    "updated_by": "petrch@elkjop.no",
+    "time_created": "2022-02-17T08:54:40.392000+00:00",
+    "time_updated": "2022-02-17T08:54:40.392000+00:00",
+    "time_leased": null,
+    "snode_id": "620e0d5062ffa768e7e6c640",
+    "acl": [],
+    "asset_id": "fe7c589d-8f71-4149-af1f-f126fa94bb14",
+    "asset_type": "Pipeline",
+    "lease_info": {},
+    "perms": [
+      "R",
+      "A",
+      "W",
+      "X"
+    ],
+    "metadata": {
+      "git": {
+        "status": "tracked",
+        "path": "first_pipe.slp",
+        "error_msgs": [],
+        "sha": "134fdb891d0bcea1e50632ff49a118a51f2970c7"
+      }
+    },
+    "parent_snode_id": "620e0c8a53dff97d3de25524",
+    "partition_snode_id": "5dc009005e684b091dddbb58",
+    "target_runtime": null,
+    "path": "/Elkjop-Test/projects/showgit2/first_pipe",
+    "original": {
+      "body": "/Elkjop-Test/projects/showgit2"
+    }
+  }
+}
