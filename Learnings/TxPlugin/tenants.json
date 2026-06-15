@@ -1,0 +1,23 @@
+[
+    {
+      "tenantName": "Prod",
+      "tokenURL": "https://elkjop-integration-prd.authentication.eu20.hana.ondemand.com/oauth/token",
+      "tenantURL": "elkjop-integration-prd.it-cpi005.cfapps.eu20.hana.ondemand.com",
+      "clientId": "sb-e75531a2-593a-4667-ac35-b61f4c9674e9!b10811|it!b259",
+      "clientSecret": "cc535aa1-1ff7-498e-8841-263cf573c3f2$nEZjdpQqK_iVWM573WAY3KTlA44WvKtTVQsKWHqWMGc="
+    },
+    {
+      "tenantName": "Dev",
+      "tokenURL": "https://elkjop-integration-dev.authentication.eu20.hana.ondemand.com/oauth/token",
+      "tenantURL": "elkjop-integration-dev.it-cpi005.cfapps.eu20.hana.ondemand.com",
+      "clientId": "sb-37710076-6974-467d-9bf4-bc3cd47a5606!b7915|it!b259",
+      "clientSecret": "d78ac6f4-fd44-49a1-be6a-f2325ffd5359$YIxJ0M12GRzJ_TWDCMql8eSRrB9XrvDAKdBPqfAUDOQ="
+    },
+    {
+      "tenantName": "Test",
+      "tokenURL": "https://elkjop-integration-tst.authentication.eu20.hana.ondemand.com/oauth/token",
+      "tenantURL": "elkjop-integration-tst.it-cpi005.cfapps.eu20.hana.ondemand.com",
+      "clientId": "sb-860ff577-d65a-4a59-9fe3-049e76b3c1f2!b9321|it!b259",
+      "clientSecret": "42742f1c-5629-4a6b-94f0-df81c783d1a7$Whq9WiBkFT16yRZIk7yEPpSVKgbc0t21_m2CnYjPTg4="
+    }
+  ]

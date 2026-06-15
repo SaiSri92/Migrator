@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tenant Integration Flow</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Integration Flow Setup</h2>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="loading-spinner" style="display: none;"></div>
+
+    <!-- Step 1: Connect to Tenant -->
+    <div class="step" id="step1">
+      <h3>Step 1: Connect to a Tenant</h3>
+      <form id="connectForm">
+        <label for="tenant-select">Select Tenant:</label>
+        <select name="tenantName" id="tenant-select" required>
+          <% tenants.forEach(tenant=> { %>
+            <option value="<%= tenant.tenantName %>">
+              <%= tenant.tenantName + " - " + tenant.tenantURL %>
+            </option>
+            <% }) %>
+        </select>
+        <button type="submit" onclick="showTable(event)">Connect</button>
+      </form>
+    </div>
+
+    <!-- Step 2: Package and Flow Selection -->
+    <div class="step" id="step2" style="display: none;">
+      <h3>Step 2: Select Integration Flow</h3>
+      <label for="packageId">Select Package ID:</label>
+      <select id="packageId" onchange="updateFlowIds()" required>
+        <option value="">-- Select Package ID --</option>
+      </select>
+
+      <label for="flowId">Select Integration Flow ID:</label>
+      <select id="flowId" required>
+        <option value="">-- Select Flow ID --</option>
+      </select>
+
+      <label id="hiddenmessage" style="display:none;"></label>
+
+      <button onclick="checkTxLog()">Get Iflow from Tenant</button>
+    </div>
+
+    <!-- Step 3: Final Actions -->
+    <div class="step" id="step3" style="display: none;">
+      <h3>Step 3: Choose Actions</h3>
+
+      <label>
+        <input type="checkbox" id="addTxLog"> Are you sure to add TxLog?
+      </label>
+      <br>
+     <!--<label>
+        <input type="checkbox" id="anotherOption"> Another Option
+      </label>--> 
+      <br>
+
+      <label for="deployOption">Deployment Option:</label>
+      <select id="deployOption">
+        <option value="">-- Choose --</option>
+        <option value="newVersion">Deploy as New Version</option>
+        <option value="download">Download to Local Computer</option>
+      </select>
+
+      <br><br>
+      <button onclick="doMagic()">DoMagic!</button>
+    </div>
+
+
+    <div id="responseMessage"></div>
+  </div>
+</body>
+
+</html>

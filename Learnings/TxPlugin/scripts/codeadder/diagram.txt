@@ -1,0 +1,58 @@
+    <bpmndi:BPMNShape bpmnElement="Participant_Process_4X" id="BPMNShape_Participant_Process_4X">
+                <dc:Bounds height="234.0" width="1016.0" x="345.0" y="244.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="StartEvent_5X" id="BPMNShape_StartEvent_5X">
+                <dc:Bounds height="32.0" width="32.0" x="419.0" y="317.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="EndEvent_6X" id="BPMNShape_EndEvent_6X">
+                <dc:Bounds height="32.0" width="32.0" x="1245.0" y="317.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="ExclusiveGateway_8X" id="BPMNShape_ExclusiveGateway_8X">
+                <dc:Bounds height="40.0" width="40.0" x="716.0" y="313.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="EndEvent_11X" id="BPMNShape_EndEvent_11X">
+                <dc:Bounds height="32.0" width="32.0" x="715.0" y="407.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="CallActivity_13X" id="BPMNShape_CallActivity_13X">
+                <dc:Bounds height="60.0" width="100.0" x="518.0" y="303.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="CallActivity_16X" id="BPMNShape_CallActivity_16X">
+                <dc:Bounds height="60.0" width="100.0" x="814.0" y="303.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="ServiceTask_19X" id="BPMNShape_ServiceTask_19X">
+                <dc:Bounds height="60.0" width="100.0" x="983.0" y="303.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="Participant_22X" id="BPMNShape_Participant_22X">
+                <dc:Bounds height="140.0" width="100.0" x="1440.0" y="252.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="CallActivity_24X" id="BPMNShape_CallActivity_24X">
+                <dc:Bounds height="60.0" width="100.0" x="494.0" y="386.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNEdge bpmnElement="SequenceFlow_7X" id="BPMNEdge_SequenceFlow_7X" sourceElement="BPMNShape_StartEvent_5X" targetElement="BPMNShape_CallActivity_13X">
+                <di:waypoint x="435.0" xsi:type="dc:Point" y="333.0"/>
+                <di:waypoint x="568.0" xsi:type="dc:Point" y="333.0"/>
+            </bpmndi:BPMNEdge>
+            <bpmndi:BPMNEdge bpmnElement="SequenceFlow_9X" id="BPMNEdge_SequenceFlow_9X" sourceElement="BPMNShape_ExclusiveGateway_8X" targetElement="BPMNShape_CallActivity_16X">
+                <di:waypoint x="736.0" xsi:type="dc:Point" y="333.0"/>
+                <di:waypoint x="864.0" xsi:type="dc:Point" y="333.0"/>
+            </bpmndi:BPMNEdge>
+            <bpmndi:BPMNEdge bpmnElement="SequenceFlow_12X" id="BPMNEdge_SequenceFlow_12X" sourceElement="BPMNShape_ExclusiveGateway_8X" targetElement="BPMNShape_EndEvent_11X">
+                <di:waypoint x="733.5" xsi:type="dc:Point" y="333.0"/>
+                <di:waypoint x="733.5" xsi:type="dc:Point" y="423.0"/>
+            </bpmndi:BPMNEdge>
+            <bpmndi:BPMNEdge bpmnElement="SequenceFlow_14X" id="BPMNEdge_SequenceFlow_14X" sourceElement="BPMNShape_CallActivity_13X" targetElement="BPMNShape_ExclusiveGateway_8X">
+                <di:waypoint x="568.0" xsi:type="dc:Point" y="333.0"/>
+                <di:waypoint x="736.0" xsi:type="dc:Point" y="333.0"/>
+            </bpmndi:BPMNEdge>
+            <bpmndi:BPMNEdge bpmnElement="SequenceFlow_17X" id="BPMNEdge_SequenceFlow_17X" sourceElement="BPMNShape_CallActivity_16X" targetElement="BPMNShape_ServiceTask_19X">
+                <di:waypoint x="864.0" xsi:type="dc:Point" y="333.0"/>
+                <di:waypoint x="1033.0" xsi:type="dc:Point" y="333.0"/>
+            </bpmndi:BPMNEdge>
+            <bpmndi:BPMNEdge bpmnElement="SequenceFlow_20X" id="BPMNEdge_SequenceFlow_20X" sourceElement="BPMNShape_ServiceTask_19X" targetElement="BPMNShape_EndEvent_6X">
+                <di:waypoint x="1033.0" xsi:type="dc:Point" y="333.0"/>
+                <di:waypoint x="1261.0" xsi:type="dc:Point" y="333.0"/>
+            </bpmndi:BPMNEdge>
+            <bpmndi:BPMNEdge bpmnElement="MessageFlow_23X" id="BPMNEdge_MessageFlow_23X" sourceElement="BPMNShape_ServiceTask_19X" targetElement="BPMNShape_Participant_22X">
+                <di:waypoint x="1033.0" xsi:type="dc:Point" y="333.0"/>
+                <di:waypoint x="1482.0" xsi:type="dc:Point" y="333.0"/>
+            </bpmndi:BPMNEdge>
